@@ -14,7 +14,7 @@ class PugAsset extends Asset {
     const config = (await this.getConfig(['.pugrc', '.pugrc.js', 'pug.config.js'])) || {};
     const rawPugFile = matter(this.contents);
 
-    const compiled = pug.compile(rawPugFile.contents, {
+    const compiled = pug.compile(rawPugFile.content, {
       compileDebug: false,
       filename: this.name,
       basedir: path.dirname(this.name),
