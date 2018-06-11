@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-pug-front-matter",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "A parcel plugin for pug files that converts front matter to pug local vars",
   "main": "index.js",
   "repository": "git@github.com:thoughtbyte/parcel-plugin-pug-front-matter.git",

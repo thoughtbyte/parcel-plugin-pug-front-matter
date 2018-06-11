@@ -4,8 +4,8 @@ const Asset = require('parcel-bundler/lib/Asset');
 const localRequire = require('parcel-bundler/lib/utils/localRequire');
 
 class PugAsset extends Asset {
-  constructor(name, options) {
-    super(name, options);
+  constructor(name, pkg, options) {
+    super(name, pkg, options);
     this.type = 'html';
   }
 
